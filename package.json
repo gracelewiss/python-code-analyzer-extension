@@ -1,7 +1,13 @@
 {
   "name": "python-code-analyzer",
   "displayName": "python-code-analyzer",
+  "publisher": "GraceLewis",
   "description": " A VS Code extension to run a Python-based static code analyzer.",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gracelewiss/python-code-analyzer-extension.git"
+},
+
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
