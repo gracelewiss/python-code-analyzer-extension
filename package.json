@@ -5,29 +5,25 @@
   "description": " A VS Code extension to run a Python-based static code analyzer.",
   "icon": "python-code-analyzer-logo.png",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/gracelewiss/python-code-analyzer-extension.git"
-  
-},
-
-  "version": "0.0.1",
-  
+    "type": "git",
+    "url": "https://github.com/gracelewiss/python-code-analyzer-extension.git"
+  },
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [ "onCommand:python-code-analyzer.run"
-],
-
+  "activationEvents": [
+    "onCommand:python-code-analyzer.run"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "python-code-analyzer.run",  
+        "command": "python-code-analyzer.run",
         "title": "Run Python Code Analyzer"
-
       }
     ]
   },
