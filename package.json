@@ -1,6 +1,6 @@
 {
   "name": "python-code-analyzer",
-  "displayName": "python-code-analyzer",
+  "displayName": "Python Code Analyzer",
   "publisher": "GraceLewis",
   "description": " A VS Code extension to run a Python-based static code analyzer.",
   "icon": "python-code-analyzer-logo.png",
